@@ -1,43 +1,36 @@
-# Personal Finance Visualizer
+This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
-A modern full-stack web application to help you **track your expenses**, **analyze your spending habits**, and **stay in control of your personal finances**. Whether you're budgeting for groceries or visualizing monthly outflows, this tool has you covered.
+## Getting Started
 
----
+First, run the development server:
 
-##Features
+```bash
+npm run dev
+# or
+yarn dev
+# or
+pnpm dev
+# or
+bun dev
+```
 
- **Add Transactions**  
-  Input details like description, amount, date, and category.
+Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
- **Transaction History**  
-  View your most recent transactions in a clean list.
+You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
 
- **Spending Breakdown**  
-  Visualize where your money goes with a responsive pie chart using `recharts`.
+This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
 
- **Real-Time Updates**  
-  Automatically fetches and updates transaction data after submission.
+## Learn More
 
----
+To learn more about Next.js, take a look at the following resources:
 
-##Tech Stack
+- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
+- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
 
-- **Frontend**: [Next.js 15](https://nextjs.org/), [React](https://react.dev/), [shadcn/ui](https://ui.shadcn.com/)
-- **Backend**: API Routes via App Router
-- **Database**: [MongoDB Atlas](https://www.mongodb.com/cloud/atlas) (Cloud-hosted NoSQL)
-- **ORM**: [Mongoose](https://mongoosejs.com/)
-- **Charts**: [Recharts](https://recharts.org/)
-- **Language**: TypeScript
+You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
 
----
+## Deploy on Vercel
 
-##  Project Structure
+The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
-2. Install dependencies
-   npm install
-3. Set up environment variables
-   Create a .env.local file at the root with your MongoDB URI: MONGODB_URI=your_mongodb_connection_string
-4. Start the development server
-   npm run dev
-Now go to http://localhost:3000 and enjoy!
-
+Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
