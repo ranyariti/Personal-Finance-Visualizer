@@ -1,4 +1,4 @@
-# 💸 Personal Finance Visualizer
+# Personal Finance Visualizer
 
 A modern full-stack web application to help you **track your expenses**, **analyze your spending habits**, and **stay in control of your personal finances**. Whether you're budgeting for groceries or visualizing monthly outflows, this tool has you covered.
 
